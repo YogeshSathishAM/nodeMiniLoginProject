@@ -1,0 +1,24 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--this is ejs using in html -->
+    <form action="/validateRegister" method="post">
+
+            <%=errMsg.data%>
+
+        <label for="ID">Username:</label><br>
+        <input type="text" id="Usernameid" name="RegisterName"><br><br>
+
+        <label for="Passw">Password:</label><br>
+        <input type="text" id="Passwid" name="RegisterPassword"><br><br>
+
+        <input type="submit" value="Submit">
+
+</body>
+
+</html>
